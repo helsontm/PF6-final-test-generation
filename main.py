@@ -10,15 +10,9 @@ def dish_fetch(num):
         "id": num,
         "name": typicalDish.get("name", f"Dish {num}"),
         "description": typicalDish.get("description", "No description available."),
-        "Ingredients": typicalDish.get("ingredients", "No ingredients available.")
+        "Ingredients": typicalDish.get("ingredients", "No ingredients available."),
+        
     }
-
-
-
-
-
-
-
 
 
 def main():
