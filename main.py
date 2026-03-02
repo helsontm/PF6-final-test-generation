@@ -8,12 +8,12 @@ def dish_fetch(num):
     
     return   {
         "id": num,
-        "name": typicalDish.get("name", f"Dish {num}")
+        "name": typicalDish.get("name", f"Dish {num}"),
+        "description": typicalDish.get("description", "No description available."),
+        "Ingredients": typicalDish.get("ingredients", "No ingredients available.")
     }
 
 
-#print(typicalDish["description"])
-#print(typicalDish["ingredients"])
 
 
 
